@@ -1,10 +1,9 @@
 const mobileMenu = document.querySelector("#mobile-menu");
 const navigationBar = document.querySelector(".menu-links");
 
-const closeBtn = document.querySelector(".menu-links span");
-const deleteFunction = false;
+const closeBtn = document.querySelector(".menu-links > span");
 function toggleNav() {
-   document.body.style.backgroundColor = "rgb(124, 124, 124)";
+  document.body.style.backgroundColor = "rgb(124, 124, 124)";
   navigationBar.classList.toggle("open");
 }
 function closeMenu() {
@@ -21,9 +20,9 @@ function getWindowSize() {
   if (window.innerWidth <= 768) {
     logoText.innerHTML = "Menu";
   } else {
-     logoText.innerHTML = "Mekkawy.";
-     navigationBar.classList.remove("open");
-     document.body.style.background = "none";
+    logoText.innerHTML = "Mekkawy.";
+    navigationBar.classList.remove("open");
+    document.body.style.background = "none";
   }
 }
 getWindowSize();
