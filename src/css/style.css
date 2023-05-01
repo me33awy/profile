@@ -1,0 +1,45 @@
+.header {
+  background: #1f1f8f;
+  display: flex;
+  padding: 0 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header #mobile-menu span {
+  height: 3px;
+  border-radius: 10px;
+  width: 24px;
+  background: #000;
+  display: block;
+}
+.header #mobile-menu span:not(:last-child) {
+  margin-bottom: 4px;
+}
+.header #mobile-menu span:last-child {
+  width: 50%;
+}
+
+@font-face {
+  font-family: "work-sans";
+  src: url("../assets/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+  font-weight: 100 900;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  transition: all 0.3s;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "work-sans";
+}
+
+img {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

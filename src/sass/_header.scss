@@ -1,0 +1,25 @@
+@use "./colors";
+$mobileWidth: 768px;
+
+.header {
+     background: #1f1f8f;
+     display: flex;
+     padding:0 24px;
+     align-items: center;
+     justify-content: space-between;
+     #mobile-menu {
+          span {
+               height: 3px;
+               border-radius:10px;
+               width: 24px;
+               background: #000;
+               display: block;
+               &:not(:last-child) {
+                    margin-bottom: 4px;
+               }
+               &:last-child{
+                    width:50%
+               }
+          }
+     }
+}
