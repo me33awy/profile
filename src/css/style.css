@@ -6,6 +6,7 @@
 @media (min-width: 678px) {
   .header {
     justify-content: space-between;
+    padding: 20px 160px;
   }
 }
 .header #mobile-menu {
@@ -127,27 +128,63 @@ main {
   padding: 25px;
   background: #0084ff;
 }
+@media (min-width: 678px) {
+  main {
+    padding: 150px;
+  }
+}
 main h2 {
   font-size: 48px;
+}
+@media (min-width: 678px) {
+  main h2 {
+    font-size: 64px;
+  }
 }
 main p {
   line-height: 28px;
   font-size: 18px;
   font-weight: 500;
 }
-main button {
+@media (min-width: 678px) {
+  main p {
+    font-size: 20px;
+  }
+}
+main .btns {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 678px) {
+  main .btns {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+main .btns button {
   border: none;
   margin-top: 25px;
   font-size: 18px;
   font-weight: 600;
-  padding: 10px 0;
+  padding: 10px;
   cursor: pointer;
 }
-main .btn-work {
+@media (min-width: 678px) {
+  main .btns button {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+main .btns .btn-work {
   background: #000;
   color: #fff;
 }
-main .btn-about {
+@media (min-width: 678px) {
+  main .btns .btn-work {
+    margin-right: 40px;
+  }
+}
+main .btns .btn-about {
   border: 2px solid #000;
   background: none;
 }

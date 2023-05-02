@@ -8,6 +8,7 @@ $mobileWidth: 768px;
      align-items: center;
      @media (min-width: 678px) {
           justify-content: space-between;
+          padding:20px 160px;
      }
      #mobile-menu {
           cursor: pointer;

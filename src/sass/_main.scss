@@ -5,29 +5,53 @@ main {
      flex-direction: column;
      padding: 25px;
      background: #0084ff;
+     @media (min-width: 678px) {
+          padding: 150px;
+     }
      h2 {
           font-size: 48px;
+          @media (min-width: 678px) {
+               font-size: 64px;
+          }
      }
      p {
           line-height: 28px;
           font-size: 18px;
-          font-weight:500;
+          font-weight: 500;
           // margin:10px 0;
+          @media (min-width: 678px) {
+               font-size: 20px;
+          }
      }
-     button{
-          border:none;
-          margin-top:25px;
-          font-size:18px;
-          font-weight:600;
-          padding:10px 0;
-          cursor:pointer;
-     }
-     .btn-work{
-          background:#000;
-          color:#fff;
-     }
-     .btn-about{
-          border:2px solid #000;
-          background:none;
+     .btns {
+          display: flex;
+          flex-direction: column;
+          @media (min-width: 678px) {
+               flex-direction: row;
+               justify-content: center;
+          }
+          button {
+               border: none;
+               margin-top: 25px;
+               font-size: 18px;
+               font-weight: 600;
+               padding: 10px;
+               cursor: pointer;
+               @media (min-width: 678px) {
+                    padding-left: 40px;
+                    padding-right: 40px;
+               }
+          }
+          .btn-work {
+               background: #000;
+               color: #fff;
+               @media(min-width:678px){
+                    margin-right:40px;
+               }
+          }
+          .btn-about {
+               border: 2px solid #000;
+               background: none;
+          }
      }
 }
