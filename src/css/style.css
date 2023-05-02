@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  padding: 10px 24px;
+  padding: 20px 24px;
   align-items: center;
 }
 @media (min-width: 678px) {
@@ -10,7 +10,7 @@
 }
 .header #mobile-menu {
   cursor: pointer;
-  margin-right: 11px;
+  margin-right: 16px;
   position: relative;
   z-index: 10;
 }
@@ -117,6 +117,39 @@
 
 .style-menu span {
   background: #B0AFB4 !important;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 25px;
+  background: #0084ff;
+}
+main h2 {
+  font-size: 48px;
+}
+main p {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+}
+main button {
+  border: none;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 0;
+  cursor: pointer;
+}
+main .btn-work {
+  background: #000;
+  color: #fff;
+}
+main .btn-about {
+  border: 2px solid #000;
+  background: none;
 }
 
 @font-face {

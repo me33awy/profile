@@ -1,0 +1,33 @@
+main {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     flex-direction: column;
+     padding: 25px;
+     background: #0084ff;
+     h2 {
+          font-size: 48px;
+     }
+     p {
+          line-height: 28px;
+          font-size: 18px;
+          font-weight:500;
+          // margin:10px 0;
+     }
+     button{
+          border:none;
+          margin-top:25px;
+          font-size:18px;
+          font-weight:600;
+          padding:10px 0;
+          cursor:pointer;
+     }
+     .btn-work{
+          background:#000;
+          color:#fff;
+     }
+     .btn-about{
+          border:2px solid #000;
+          background:none;
+     }
+}

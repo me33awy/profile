@@ -4,14 +4,14 @@ $mobileWidth: 768px;
 .header {
      // background: #1f1f8f;
      display: flex;
-     padding: 10px 24px;
+     padding: 20px 24px;
      align-items: center;
      @media (min-width: 678px) {
           justify-content: space-between;
      }
      #mobile-menu {
           cursor: pointer;
-          margin-right: 11px;
+          margin-right: 16px;
           position: relative;
           z-index: 10;
           @media (min-width: 678px) {
