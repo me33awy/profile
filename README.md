@@ -1,1 +1,1 @@
-<img src="./src/assets/jpg/frame.jpg"
+![plot](./src/assets/jpg/frame.jpg)
