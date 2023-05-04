@@ -6,16 +6,16 @@ $mobileWidth: 768px;
      display: flex;
      padding: 20px 24px;
      align-items: center;
-     @media (min-width: 678px) {
+     @media (min-width: 918px) {
           justify-content: space-between;
-          padding:20px 160px;
+          padding: 20px 160px;
      }
      #mobile-menu {
           cursor: pointer;
           margin-right: 16px;
           position: relative;
           z-index: 10;
-          @media (min-width: 678px) {
+          @media (min-width: 918px) {
                display: none;
           }
           span {
@@ -36,7 +36,7 @@ $mobileWidth: 768px;
           h1 {
                font-weight: 600;
                font-size: 16px;
-               @media (min-width: 678px) {
+               @media (min-width: 918px) {
                     font-size: 24px;
                     font-weight: 700;
                }
@@ -52,7 +52,7 @@ $mobileWidth: 768px;
           flex-direction: column;
           padding: 40px;
           width: 100%;
-          @media (min-width: 678px) {
+          @media (min-width: 918px) {
                position: static;
                background: none;
                height: inherit;
@@ -64,44 +64,43 @@ $mobileWidth: 768px;
                color: colors.$sidebarLinksColor;
                font-size: 1.2rem;
                padding: 15px;
-               @media(min-width:678px){
-                    color:colors.$blackColor;
-                    position:relative;
-                    padding:0;
-                    &:not(:last-child){
-                         margin-right:80px;
+               @media (min-width: 918px) {
+                    color: colors.$blackColor;
+                    position: relative;
+                    padding: 0;
+                    &:not(:last-child) {
+                         margin-right: 80px;
                     }
-                    &::before{
-                         content:"";
-                         width:100%;
-                         position:absolute;
-                         bottom:-8px;
-                         left:0;
-                         height:0px;
-                         background:colors.$blackColor;
+                    &::before {
+                         content: "";
+                         width: 100%;
+                         position: absolute;
+                         bottom: -8px;
+                         left: 0;
+                         height: 0px;
+                         background: colors.$blackColor;
                     }
-                    &:hover{
-                         font-weight:600;
-                         &::before{
-                              height:5px
+                    &:hover {
+                         font-weight: 600;
+                         &::before {
+                              height: 5px;
                          }
-                      
                     }
                }
           }
      }
      .content-icons {
           display: none;
-          @media(min-width:678px){
-               display:flex;
-               align-items:center;
+          @media (min-width: 918px) {
+               display: flex;
+               align-items: center;
                // justify-content:center;
-               a{
-                    display:flex;
-                    justify-content:center;
-                    align-items:center;
-                    &:not(:last-child){
-                         margin-right:40px;
+               a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &:not(:last-child) {
+                         margin-right: 40px;
                     }
                }
           }

@@ -1,0 +1,50 @@
+.case-study {
+     display: flex;
+     flex-direction: column;
+     padding: 40px 24px;
+     @media (min-width: 918px) {
+          padding: 40px 20rem;
+     }
+     h4 {
+          font-size: 24px;
+          font-weight: 700;
+          @media (min-width: 918px) {
+               font-size: 32px;
+          }
+          margin-bottom: 24px;
+     }
+     .cards {
+          @media (min-width: 918px) {
+               display: flex;
+               align-items: flex-start;
+               gap: 20px;
+          }
+          .card {
+               flex: 1;
+               &:not(:last-child) {
+                    margin-bottom: 20px;
+               }
+               display: grid;
+               place-items: center;
+               img {
+                    width: 100%;
+                    margin-bottom: 16px;
+               }
+               h5 {
+                    text-align: left;
+                    width: 100%;
+                    font-size: 18px;
+                    font-weight: 700;
+                    @media (min-width: 918px) {
+                         font-size: 24px;
+                    }
+                    margin-bottom: 10px;
+               }
+               p {
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: 500;
+               }
+          }
+     }
+}
